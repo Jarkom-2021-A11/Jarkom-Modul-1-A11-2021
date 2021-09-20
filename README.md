@@ -79,6 +79,28 @@ Solusi : Mencari pake yang menunjukan pengambilan sama halnya dengan men-*downlo
 
 ![Jawaban Nomor 8](images/nomor8gambar1.jpg)
 
+## Soal 9
+Dari paket-paket yang menuju FTP terdapat indikasi penyimpanan beberapa file. Salah satunya adalah sebuah file berisi data rahasia dengan nama "secret.zip". Simpan dan buka file tersebut!
+
+Solusi : 
+untuk mendapatkan zip →  ftp-data.command contains "secret.zip"
+![Jawaban Nomor 9](images/nomor9gambar1.jpg)
+lalu klik kanan → Follow → TCP Stream → Ubah data menjadi raw lalu save as “secret.zip”
+![Jawaban Nomor 9](images/nomor9gambar2.jpg)
+ketika dibuka akan meminta password seperti ini 
+![Jawaban Nomor 9](images/nomor9gambar3.jpg)
+
+## Soal 10
+Selain itu terdapat "history.txt" yang kemungkinan berisi history bash server tersebut! Gunakan isi dari "history.txt" untuk menemukan password untuk membuka file rahasia yang ada di "secret.zip"!
+
+Untuk mendapatkan history.txt → ftp-data.command contains "history.txt"
+![Jawaban Nomor 10](images/nomor10gambar1.jpg)
+Jika dilihat pada bagian Line-based text terlihat bahwa password dibuat dari baris paling akhir dari isi bukanapaapa.txt
+untuk mencari bukanapaapa.txt → ftp-data.command contains "bukanapaapa.txt"
+![Jawaban Nomor 10](images/nomor10gambar2.jpg)
+Jika dilihat pada bagian Line-based text terlihat bahwa string paling akhir adalah “d1b1langbukanapaapajugagapercaya” sehingga itu adalah password dari secret.zip
+![Jawaban Nomor 10](images/nomor10gambar2.jpg)
+
 ## Soal 11
 Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80! 
 
