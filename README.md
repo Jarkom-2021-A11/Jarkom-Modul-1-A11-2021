@@ -42,7 +42,12 @@ Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan passw
 ![Jawaban Nomor 5 Gambar 1](images/nomor5gambar1.jpg)
 ![Jawaban Nomor 5 Gambar 2](images/nomor5gambar2.jpg)
 
+## Soal 8
+Cari paket yang menunjukan pengambilan file dari FTP tersebut!
 
+Solusi : Mencari pake yang menunjukan pengambilan sama halnya dengan men-*download* sehingga filter yang sesuai ialah ```ftp contains "RETR"```
+
+![Jawaban Nomor 8](images/nomor8gambar1.jpg)
 
 ## Soal 11
 Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80! 
