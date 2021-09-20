@@ -42,6 +42,36 @@ Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan passw
 ![Jawaban Nomor 5 Gambar 1](images/nomor5gambar1.jpg)
 ![Jawaban Nomor 5 Gambar 2](images/nomor5gambar2.jpg)
 
+## Soal 6
+Cari username dan password ketika melakukan login ke FTP Server!
+
+untuk mencari username filter display diisi
+```ftp.request.command contains "USER"```
+![Jawaban Nomor 6 Gambar 1](images/nomor6gambar1.png)
+untuk mencari password filter display diisi
+```ftp.request.command contains "PASS"```
+![Jawaban Nomor 6 Gambar 2](images/nomor6gambar2.png)
+
+didapat username dan password sebagai berikut:
+```
+username : secretuser
+password : aku.pengen.pw.aja
+```
+
+## Soal 7
+Ada 500 file zip yang disimpan ke FTP Server dengan nama 0.zip, 1.zip, 2.zip, ..., 499.zip. Simpan dan Buka file pdf tersebut. (Hint = nama pdf-nya "Real.pdf")
+
+filter display diisi ```ftp-data contains "Real.pdf"```
+![Jawaban Nomor 7 Gambar 1](images/nomor7gambar1.jpeg)
+klik kanan pada ftp-data -> klik kanan -> follow -> TCP Stream
+![Jawaban Nomor 7 Gambar 2](images/nomor7gambar2.png)
+akan muncul huruf-huruf.
+ubah show data as menjadi raw.
+![Jawaban Nomor 7 Gambar 2](images/nomor7gambar2.jpeg)
+lalu save as dengan ekstensi .pdf maka akan muncul seperti berikut.
+![Jawaban Nomor 7 Gambar 3](images/nomor7gambar3.jpeg)
+
+
 ## Soal 8
 Cari paket yang menunjukan pengambilan file dari FTP tersebut!
 
