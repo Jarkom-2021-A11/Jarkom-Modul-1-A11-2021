@@ -27,27 +27,34 @@ Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan passw
 
 Solusi: ```src port 80```
 
+![Jawaban Nomor 11](images/nomor11gambar1.PNG)
+
 ## Soal 12
 11.	12.	Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 
 Solusi: ```port 21```
+
+![Jawaban Nomor 12](images/nomor12gambar1.PNG)
 
 ## Soal 13
 11.	Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
 
 Solusi: ```dst port 443```
 
+![Jawaban Nomor 13](images/nomor13gambar1.PNG)
+
 ## Soal 14
 11.	Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id!
 
 Solusi: ```dst host kemenag.go.id```
 
+![Jawaban Nomor 14](images/nomor14gambar1.PNG)
 
-### Soal 15
+## Soal 15
 11.	Filter sehingga wireshark hanya mhanya mengambil paket yang berasal dari ip kalian!
 
 Solusi:
 Dengan menggunakan command prompt dan command ```ipconfig```. Dari situ, Ditemukan bahwa ip yang digunakan adalah ```192.168.0.101```. 
 Kemudian untuk mengambil paket yang berasal dari ip, menggunakan capture filter: ```ip src 192.168.0.101``` 
 
-![Jawaban Nomor 15](images/nomor15gambar1.jpg)
+![Jawaban Nomor 15](images/nomor15gambar1.PNG)
